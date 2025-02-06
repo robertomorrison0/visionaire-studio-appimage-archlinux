@@ -19,11 +19,11 @@ options=(!strip)
 _sdl2_lib_path="/usr/lib/libSDL2-2.0.so"
 
 # The name of your downloaded AppImage (to be put in the folder with this file)
-_appimage="Visionaire-Studio-Full-x86_64.AppImage"
+_appimage="Visionaire-Studio-x86_64.AppImage"
 
-source_x86_64=("${_appimage}" "https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-x86_64.AppImage")
+source_x86_64=("https://www.visionaire-studio.net/downloads/out/visionaire-studio-5-linux/${_appimage}" "https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-x86_64.AppImage")
 #noextract=("${_appimage}")
-sha256sums_x86_64=('SKIP'
+sha256sums_x86_64=('3ffabe39f38c8d80260e0903a121a704116d7df6b6d34d12eb6185be94a1cdd0'
                    '74ab880849bb17d7b4e97c76c22cf9c8ecb0a06435985fda0049311f08eeebf7')
 
 prepare() {
