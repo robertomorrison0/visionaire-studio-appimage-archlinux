@@ -1,5 +1,8 @@
 # visionaire-studio-appimage-archlinux
 
+> [!CAUTION] 
+> This package has been archived as it is now in the [AUR](https://aur.archlinux.org/packages/visionaire-studio-appimage)
+
 ## Disclaimer
 
 I created this script in my spare time, and I am not affiliated with Visionaire Studio, the company that owns the software. 
